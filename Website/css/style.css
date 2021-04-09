@@ -17,3 +17,9 @@
   p {
       color: blue;
   }
+
+  @media (min-width: 375px) {
+      p {
+          color: red;
+      }
+  }
