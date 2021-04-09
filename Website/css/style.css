@@ -23,7 +23,7 @@
     border-radius: 4px;
     text-align: right;
     position: relative;
-    top: -63px;
+    vertical-align: middle;
   }
 
   .logo{
@@ -32,11 +32,6 @@
       margin-right: auto;
   }
 
-  .homePage {
-      background-image: url(/Website/images/home-background.jpg);
-      background-size: cover;
-
-  }
 
   p {
       color: blue;
