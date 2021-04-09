@@ -54,7 +54,15 @@
       padding-left: 50px;
   }
 
+  .left {
+      float: left;
+      padding-left: 10px;
+  }
 
+  .right{
+      float: right;
+      padding-right: 10px;
+  }
 
   @media (max-width: 375px) {
       p {
