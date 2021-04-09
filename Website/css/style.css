@@ -33,7 +33,7 @@
   }
 
   .homePage {
-      background-image: url(Website/images/home-background.jpg);
+      background-image: url(/Website/images/home-background.jpg);
       background-size: cover;
 
   }
