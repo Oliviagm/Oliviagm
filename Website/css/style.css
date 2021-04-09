@@ -23,7 +23,8 @@
     border-radius: 4px;
     text-align: right;
     position: relative;
-    top: -62;
+    vertical-align: middle;
+    top: -62px;
   }
 
   .logo{
@@ -36,6 +37,24 @@
   p {
       color: blue;
   }
+
+  .sourceTable{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 10px; 
+  }
+  /* https://stackoverflow.com/a/63825397/14381579 css for centering at bottom */
+  .sources img {
+      border-radius: 50%;
+      height: 150px;
+      width: 200px;
+      padding-right: 50px;
+      padding-left: 50px;
+  }
+
+
 
   @media (max-width: 375px) {
       p {
