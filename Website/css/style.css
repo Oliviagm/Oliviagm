@@ -1,17 +1,41 @@
-.right {
-    float: right;
-    color: red;
+/* header for the pages */
+
+* {
+    padding:0;
+    margin:0;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .header a {
-    float: left;
-    color: black;
+    float: right;
+    color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 20px;
     border-radius: 4px;
+    text-align: right;
+    position: relative;
+    top: -63px;
+  }
+
+  .logo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .homePage {
+      background-image: url(/Website/images/home-background.jpg);
+      background-size: cover;
+
   }
 
   p {
