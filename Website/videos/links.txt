@@ -1,2 +1,30 @@
 https://vimeo.com/7645659   // grid
 https://vimeo.com/7964160  //wind
+
+<div class=mobile>
+    <div class=header>
+        <!--dropdown button from tutorialspoint: https://www.tutorialspoint.com/how-to-create-a-clickable-dropdown-menu-with-css-and-javascript
+        we add an event listener to see when the button is clicked
+        when the button is clicked the links previoulsy hidden our then shown
+        code is from turtorial point sorry running out of time :)-->
+        <div class="dropdown-menu">
+            <button class="menu-btn"><img src="/Website/images/menu-icon.png" width="5px" height="2px"></button>
+            <div class="menu-content">
+            <a class="links" href="/Website/Coal/index.html">Coal</a>
+            <a class="links" href="/Website/Wind/index.html">Wind</a>
+            <a class="links" href="/Website/Grid/index.html">Grid</a>
+            </div>
+            </div>
+            <script>
+            let dropdownBtn = document.querySelector('.menu-btn');
+            let menuContent = document.querySelector('.menu-content');
+            dropdownBtn.addEventListener('click',()=>{
+               if(menuContent.style.display===""){
+                  menuContent.style.display="block";
+               } else {
+                  menuContent.style.display="";
+               }
+            })
+            </script>
+    <img src=/Website/images/logo_transparent.png width=25% class=logo>
+ </div>
