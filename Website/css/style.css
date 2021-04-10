@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+body {
+  overflow: scroll;
+}
+
 .header {
   background-color: black;
   width: 100%;
@@ -79,6 +83,10 @@ p {
 
 .faq .ab {
   display: none;
+}
+
+.faq .q {
+  display: block;
 }
 
 @media (max-width: 375px) {
