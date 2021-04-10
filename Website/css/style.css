@@ -5,6 +5,9 @@
   margin: 0;
 }
 
+.homeText {
+  color: darkorange;
+}
 .header {
   background-color: black;
   width: 100%;
@@ -77,7 +80,28 @@ p {
     color: red;
   }
 }
+.left {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+.vid p {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
 .credits {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+
+.credits p {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+.right {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+.right p {
   font-family: forma-djr-deck, sans-serif;
   color: white;
 }
