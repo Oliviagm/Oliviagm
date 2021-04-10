@@ -64,8 +64,16 @@
       padding-right: 10px;
   }
 
-  @media (max-width: 375px) {
-      p {
-          color: red;
+  .mobile{
+      display: none;
+  }
+
+  @media screen and (max-width: 375px) {
+      .desktop{
+          display: none;
+      }
+      
+      .mobile{
+          display: block;
       }
   }
