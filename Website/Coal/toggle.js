@@ -17,11 +17,12 @@ for (i=1; i<9; i++) {
   let button = bID + i;
     function toggle() {
         answer = document.getElementById(answerID);
-        console.log('working');
-        if (answer.style.display === "none") {
-            answer.style.display = "block";
+        console.log(answer);
+        console.log(answer.style.display);
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
         } else{
-            answer.style.display = "none"
+            answer.style.display = "block"
         }
     }
     document.getElementById(button).addEventListener("click", toggle);
