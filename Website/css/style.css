@@ -1,68 +1,82 @@
 /* header for the pages */
 
 * {
-    padding:0;
-    margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
-    background-color: black;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .header a {
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 20px;
-    border-radius: 4px;
-    text-align: right;
-    position: relative;
-    vertical-align: middle;
-    top: -62px;
-  }
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 4px;
+  text-align: right;
+  position: relative;
+  vertical-align: middle;
+  top: -62px;
+}
 
-  .logo{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.homeTitle {
+  font-family: forma-djr-deck, sans-serif;
+  font-style: normal;
+}
+.intro {
+  font-family: forma-djr-deck, sans-serif;
+}
+p {
+  color: darkorange;
+}
+.sources {
+  font-family: forma-djr-deck, sans-serif;
+}
+.sourceTable {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 10px;
+}
+/* https://stackoverflow.com/a/63825397/14381579 css for centering at bottom */
+.sources img {
+  border-radius: 50%;
+  height: 150px;
+  width: 200px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
 
+.left {
+  float: left;
+  padding-left: 10px;
+}
+
+.right {
+  float: right;
+  padding-right: 10px;
+}
+
+@media (max-width: 375px) {
   p {
-      color: blue;
+    color: red;
   }
-
-  .sourceTable{
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    bottom: 10px; 
-  }
-  /* https://stackoverflow.com/a/63825397/14381579 css for centering at bottom */
-  .sources img {
-      border-radius: 50%;
-      height: 150px;
-      width: 200px;
-      padding-right: 50px;
-      padding-left: 50px;
-  }
-
-  .left {
-      float: left;
-      padding-left: 10px;
-  }
-
-  .right{
-      float: right;
-      padding-right: 10px;
-  }
+<<<<<<< HEAD
 
   .mobile{
       display: none;
@@ -77,3 +91,6 @@
           display: block;
       }
   }
+=======
+}
+>>>>>>> e5de88c74974015d68d984fa98b2f8ac2624541f
