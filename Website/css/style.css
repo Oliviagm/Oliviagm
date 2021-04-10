@@ -91,6 +91,8 @@ p {
   padding-right: 10px;
 }
 
+<<<<<<< HEAD
+=======
 .question {
   display: inline-block;
   margin: 0;
@@ -104,6 +106,7 @@ p {
   display: block;
 }
 
+>>>>>>> c24e9d189f23556c829c11f6266a373061f08f1a
 @media (max-width: 375px) {
   p {
     color: red;
