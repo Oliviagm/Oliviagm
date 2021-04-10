@@ -5,16 +5,25 @@
   margin: 0;
 }
 
-<<<<<<< HEAD
 body {
   overflow: scroll;
 }
 
-=======
 .homeText {
   color: darkorange;
+  padding-left: 225px;
 }
->>>>>>> 7523058a4427baf69c071422b1f5c70cca0fe182
+
+.homeTitle{
+  margin-top: 15px;
+  margin: 15px;
+}
+
+.homeText p {
+  font-size: 20px;
+  right: -20px;
+}
+
 .header {
   background-color: black;
   width: 100%;
