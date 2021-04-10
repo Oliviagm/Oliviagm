@@ -75,6 +75,15 @@ p {
   padding-right: 10px;
 }
 
+.question {
+  display: inline-block;
+  margin: 0;
+}
+
+.faq .ab {
+  display: none;
+}
+
 @media (max-width: 375px) {
   p {
     color: red;
