@@ -5,10 +5,16 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
 body {
   overflow: scroll;
 }
 
+=======
+.homeText {
+  color: darkorange;
+}
+>>>>>>> 7523058a4427baf69c071422b1f5c70cca0fe182
 .header {
   background-color: black;
   width: 100%;
@@ -93,4 +99,29 @@ p {
   p {
     color: red;
   }
+}
+.left {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+.vid p {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+.credits {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+
+.credits p {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+.right {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
+}
+.right p {
+  font-family: forma-djr-deck, sans-serif;
+  color: white;
 }
