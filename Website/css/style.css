@@ -18,12 +18,15 @@ body {
   margin-top: 15px;
   margin: 15px;
 }
+<<<<<<< HEAD
+=======
 
 .homeText p {
   font-size: 20px;
   right: -20px;
 }
 
+>>>>>>> 29ea82d8b7b581d110a3d3cf9b5efe27136546d2
 .header {
   background-color: black;
   width: 100%;
