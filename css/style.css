@@ -14,7 +14,7 @@ body {
   padding-left: 225px;
 }
 
-.homeTitle{
+.homeTitle {
   margin-top: 15px;
   margin: 15px;
 }
@@ -23,8 +23,6 @@ body {
   font-size: 20px;
   right: -20px;
 }
-
-
 
 .header a {
   float: right;
